@@ -4,7 +4,7 @@
 
 # Carlos Santana
 
-HTML - javascript
+HTML - javascript - CSS
 
 ## Descripción
 
