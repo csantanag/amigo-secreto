@@ -37,9 +37,15 @@ function sortearAmigo() {
 
    // Crear un nuevo <li>
     const nuevoElemento = document.createElement("li");
-    nuevoElemento.textContent = listaAmigos[generaNumero];
+    nuevoElemento.textContent = "Amigo secreto: " + listaAmigos[generaNumero];
     // Agregar el <li> al resultado <ul>
     document.getElementById("resultado").appendChild(nuevoElemento);
+
+    // Crear un nuevo <li>
+    const f5 = document.createElement("li");
+    f5.innerHTML = "<hr> Presione F5 para jugar nuevamente <br> Se han bloqueado los botones";
+    // Agregar el <li> al resultado <ul>
+    document.getElementById("f5").appendChild(f5);
 
     // Deshabilita botones - Fin
     document.getElementById("botonAgrega").setAttribute("disabled", true)
